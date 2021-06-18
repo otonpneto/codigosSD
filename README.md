@@ -1,2 +1,2 @@
 # codigosSD
-Códigos inicial dos projetos de SD
+Códigos iniciais dos projetos de SD
