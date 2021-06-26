@@ -1,8 +1,23 @@
+/**
+ * Classe representando uma calculadora extremamente simples, que conta apenas
+ * com as quatro operações fundamentais. Cada operação é executada sobre dois
+ * valores double e seu resultado também é um double.
+ *
+ */
 public class Calculadora {
-    public String sayHello(String nome, String sobrenome) {
-        return "Fala "+ nome + " " + sobrenome;
-    }
-    public double soma(double oper1, double oper2) {
-        return oper1 + oper2;
-    }
+	public double soma(double oper1, double oper2) {
+		return oper1 + oper2;
+	}
+
+	public double subtrai(double oper1, double oper2) {
+		return oper1 - oper2;
+	}
+
+	public double multiplica(double oper1, double oper2) {
+		return oper1 * oper2;
+	}
+
+	public double divide(double oper1, double oper2) {
+		return oper1 / oper2;
+	}
 }
